@@ -1,0 +1,179 @@
+nav{
+  background-color: #1a1a1d;
+}
+#home{
+  background-color: #1a1a1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+#slide{
+  width: 900px;
+  background-color: white;
+  height: 500px;
+
+}
+#slide img{
+  float: left;
+  width: 500px;
+  height: 500px;
+  padding-right: 50px;
+  text-align: justify;
+}
+#slide2{
+  width: 900px;
+  background-color: white;
+  height: 500px;
+}
+#slide2 img{
+  float: left;
+  width: 300px;
+    height: 500px;
+    padding-right: 50px;
+}
+#carouselExampleControls{
+  width: 900px;
+  height: 500px;
+}
+#slide3{
+  width: 900px;
+  background-color: white;
+  height: 500px;
+}
+#slide3 img{
+  float: left;
+  width: 400px;
+  height: 500px;
+  padding-right: 50px;
+}
+#home p{
+  font-size: 1.5rem;
+  padding-top: 50px;
+  text-align: center;
+  margin-right: 30px;
+  font-weight: 900;
+  font-style: italic;
+
+}
+.news{
+  width: 300px;
+  height: 400px;
+  border: 1px ;
+  margin-left: 150px;
+  margin-top: 50px;
+  float: left;
+}
+.news img{
+   width: 298px;
+   padding: 5px;
+}
+.news p{
+  text-decoration-color: white;
+  padding: 5px 10px 0;
+}
+#current{
+  text-align: center;
+  margin-top: 35px;
+}
+.head{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+#doodle{
+  text-align: center;
+  padding-top: 500px;
+}
+#sketches{
+  padding-top: 550px;
+  text-align: center;
+}
+#dye-work{
+  padding-top: 600px;
+  text-align: center;
+}
+#about{
+  background-color: #1a1a1d;
+  margin-top: 800px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.about{
+    background-color:white ;
+  width:800px;
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+
+}
+.about img{
+  float: left;
+  width: 250px;
+  height: 350px;
+  margin:20px;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+.about p{
+  margin: 20px 25px 0 ;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+}
+#footer{
+  padding: 5% 15% 1%;
+  text-align: center;
+}
+.f1{
+  padding: 0 3% 3%;
+  size: 5px;
+}
+@media (max-width: 1028px){
+
+  #slide{
+    width: 600px;
+    height: 470px;
+    margin-left: 100px;
+  }
+  #slide img{
+    height: 470px;
+    width: 450px;
+    padding-right: 25px;
+  }
+  #slide2{
+    width: 600px;
+    height: 450px;
+    margin-left: 100px;
+  }
+  #slide2 img{
+    height: 450px;
+  }
+  #slide2 p{
+    margin-top: 25px;
+    padding-right: 20px;
+  }
+
+  #slide3{
+    width: 600px;
+    height: 450px;
+    margin-left: 100px;
+  }
+  #slide3 img{
+    height: 450px;
+    padding-right: 25px;
+  }
+  #slide3 p{
+    margin-top: 20px;
+  }
+  #home p{
+    font-size: 1rem;
+    padding-top: 10px;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 900;
+    font-style: italic;
+
+  }
